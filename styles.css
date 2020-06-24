@@ -12,21 +12,43 @@ html, body{
     6. border radius */
 
 /* عند الحاجه w3schools قم بالاستعانه بموقع  */
+.flex1{
+    display: flex;
+    height: 100%;
+
+}
+
+.container{
+    height: 100%;
+}
 
 .sidebar{
     /* pxالعرض هنا يجب ان يكون 120 */
+    width: 120px;
+    background-color: red;
+}
+.زر{
+    background-color:white ;
 }
 
+.زر:hover{
+    background-color:red;
+}
 .header{
     /* pxالطول هنا يجب ان يكون 80 */
+    height: 20%;
+    background-color: yellow;
 }
 
 .main{
+    height: 80%;
+    background-color: green;
 
 }
 
 a{
     color: darkgray;
+    text-decoration: none;
     /* اجعل شكل اللنك من غير خط اسفل الكلام */
 }
 
